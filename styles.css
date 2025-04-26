@@ -1,13 +1,22 @@
-/*  your css code here. If applicable */
-#box{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	border: 2px solid black;
-	height:200px;
-	width:200px;
-	margin:auto;
-	text-align:center;
-	color:purple;
-	background-color:lightblue;
-}
+body {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+    }
+    .center-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      border: 2px solid black;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .center-box span {
+      color: purple;
+      
+    }
